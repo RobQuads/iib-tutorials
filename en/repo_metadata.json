@@ -526,6 +526,43 @@
 			[
 								
 			]
-		}
+		},
+		{
+            "name": "Performance Report Samples",
+            "description": "Deploy and run the artefacts used to create the Performance Reports",
+            "descriptionUrl": "http://ot4i.github.io/tutorials/en/categories/Performance_Reports_overview.htm",
+            "iibVersions": "",
+            "visible": "true",
+            "tutorials": [
+                {
+                    "name": "RESTFul API",
+                    "version": "1.0",
+                    "iibVersions": "10.*-11.*",
+                    "shortDesc": "Provides a Restful API to a more complex SOAP interface",
+                    "detailsURL": "https://github.com/RobQuads/RESTFul-API-Sample/en/details.html",
+                    "stepsURL": "https://github.com/RobQuads/RESTFul-API-Sample/en/steps.html",
+                    "zipURL": "https://github.com/RobQuads/RESTFul-API-Sample/releases/download/V1/RESTFul-API-Sample.zip",
+                    "barFile": "<workspace>/BARfiles/RESTFul-API-Sample.bar",
+                    "visible": "true",
+                    "tags": "service;http;Restful;transformation",
+                    "isPattern": "false",
+                    "isFavorite": "true",
+                    "projects": "TemperatureConverter:BARfiles",
+                    "editorResPaths": [
+                        {
+                            "id": "MainService",
+                            "editor": "service",
+                            "wspath": "<workspace>/TemperatureConverter/service.descriptor"
+                        }
+                    ],
+                    "deployedResources": [
+                        {
+                            "type": "service",
+                            "path": "TemperatureConverter"
+                        }
+                    ]
+                }
+            ]
+        }
 	]
 }
