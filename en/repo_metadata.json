@@ -13,19 +13,19 @@
             "visible": "true",
             "tutorials": [
                 {
-					"name" : "Manage a set of records with IBM Integration Bus REST API services",
+					"name" : "REST API Interface to SOAP",
 					"version"	: "1.0",
 					"iibVersions"	: "10.*-11.*",
-					"shortDesc" : "Learn how to use an IBM Integration Bus REST API service to manage a set of records.",
-					"detailsURL" : "http://ekharlamov.github.io/rest-api-tutorial/en/details.html",
-					"stepsURL" : "http://ekharlamov.github.io/rest-api-tutorial/en/steps.html",
+					"shortDesc" : "provides a RESTful API to a more complex SOAP interface",
+					"detailsURL" : "http://robquads.github.io/RESTFul-API-Sample/en/details.html",
+					"stepsURL" : "http://robquads.github.io/RESTFul-API-Sample/en/steps.html",
 					"zipURL" : "https://github.com/ot4i/rest-api-tutorial/releases/download/V1/CustomerDatabasePI_V1.zip",
-					"barFile" : "<workspace>/BARfiles/CustomerDatabaseV1.bar",
+					"barFile" : "<workspace>/BARfiles/RESTful_API.bar",
 					"visible"	: "true",
 					"tags"	: "rest api",
 					"isPattern"	: "false",
 					"isFavorite"	: "true",
-					"projects"	: "BARfiles:CustomerDatabaseJava:CustomerDatabaseV1",
+					"projects"	: "BARfiles:REST_TransactionService",
 					"editorResPaths": [
 						{
 							"id" : "CustomerDatabaseV1",
