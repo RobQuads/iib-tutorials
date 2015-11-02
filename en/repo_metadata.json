@@ -13,33 +13,33 @@
             "visible": "true",
             "tutorials": [
                 {
-                    "name": "RESTFul API",
-                    "version": "1.0",
-                    "iibVersions": "10.*-11.*",
-                    "shortDesc": "Provides a Restful API to a more complex SOAP interface",
-                    "detailsURL": "https://github.com/RobQuads/RESTFul-API-Sample/en/details.html",
-                    "stepsURL": "https://github.com/RobQuads/RESTFul-API-Sample/en/steps.html",
-                    "zipURL": "https://github.com/RobQuads/RESTFul-API-Sample/releases/download/V1/RESTFul-API-Sample.zip",
-                    "barFile": "<workspace>/BARfiles/RESTFul-API-Sample.bar",
-                    "visible": "true",
-                    "tags": "service;http;Restful;transformation",
-                    "isPattern": "false",
-                    "isFavorite": "true",
-                    "projects": "TemperatureConverter:BARfiles",
-                    "editorResPaths": [
-                        {
-                            "id": "MainService",
-                            "editor": "service",
-                            "wspath": "<workspace>/TemperatureConverter/service.descriptor"
-                        }
-                    ],
-                    "deployedResources": [
-                        {
-                            "type": "service",
-                            "path": "TemperatureConverter"
-                        }
-                    ]
-                }
+					"name" : "Manage a set of records with IBM Integration Bus REST API services",
+					"version"	: "1.0",
+					"iibVersions"	: "10.*-11.*",
+					"shortDesc" : "Learn how to use an IBM Integration Bus REST API service to manage a set of records.",
+					"detailsURL" : "http://ekharlamov.github.io/rest-api-tutorial/en/details.html",
+					"stepsURL" : "http://ekharlamov.github.io/rest-api-tutorial/en/steps.html",
+					"zipURL" : "https://github.com/ot4i/rest-api-tutorial/releases/download/V1/CustomerDatabasePI_V1.zip",
+					"barFile" : "<workspace>/BARfiles/CustomerDatabaseV1.bar",
+					"visible"	: "true",
+					"tags"	: "rest api",
+					"isPattern"	: "false",
+					"isFavorite"	: "true",
+					"projects"	: "BARfiles:CustomerDatabaseJava:CustomerDatabaseV1",
+					"editorResPaths": [
+						{
+							"id" : "CustomerDatabaseV1",
+							"editor" : "",
+							"wspath" : "<workspace>/CustomerDatabaseV1/restapi.descriptor"
+						}
+					],
+			    	"deployedResources" : [
+						{
+							"type": "restapi",
+							"path": "CustomerDatabaseV1"
+						}
+					]
+				}
             ]
         }
 	]
