@@ -6,9 +6,9 @@
 	"categories": 
 	[
 		{
-            "name": "Performance Report Samples",
-            "description": "Deploy and run the artefacts used to create the Performance Reports",
-            "descriptionUrl": "http://ot4i.github.io/tutorials/en/categories/Performance_Reports_overview.htm",
+            "name": "Tool Capabilities",
+            "description": "Explore Integration Bus concepts by following simple tutorials",
+            "descriptionUrl": "http://ot4i.github.io/tutorials/en/categories/Tools_Category_overview.htm",
             "iibVersions": "",
             "visible": "true",
             "tutorials": [
